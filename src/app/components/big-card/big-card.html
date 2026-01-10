@@ -1,15 +1,16 @@
 <div class="container__big-card">
   <div class="big-card__photo">
-    <img src="https://placehold.co/400x200" alt="" />
+    <img src="{{ photoCover }}" alt="" />
   </div>
   <div class="big-card__title">
-    <h1><a href="#">Saiu a nova versão do Angular!</a></h1>
+    <h1>
+      <a href="#">{{ cardTitle }}</a>
+    </h1>
   </div>
   <div class="big-card__desc">
     <p>
       <a href="#">
-        Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit
-        quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.
+        {{ cardDescription }}
       </a>
     </p>
   </div>
